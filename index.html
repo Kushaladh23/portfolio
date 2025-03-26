@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kushal Adhikari - Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/8cef5d09c3.js" crossorigin="anonymous"></script>
+        
+    </head>
+
+
+<body>
+    
+    <div id="header">
+            <!-- Navbar -->
+<div class="navbar">
+    <a href="#" class="logo">
+        <img src="images/main-logo.svg" alt="Logo">
+    </a>
+    <div class="hamburger" onclick="openNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+<!-- Side Panel -->
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+        <a href="#header">Home</a>
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-socials">
+        <a href="https://www.facebook.com/kushal.adh23" target="_blank" class="social-link">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/kushaladh" target="_blank" class="social-link">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://behance.com/kushaladh" target="_blank" class="social-link">
+            <i class="fab fa-behance"></i>
+        </a>
+        <a href="https://www.instagram.com/kushal_adh_23/" target="_blank" class="social-link">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+</div>
+
+
+<!-- Hero Section -->
+<div class="hero">
+    <img src="images/bg img 1.png" alt="Hero Image" class="hero-image">
+</div>
+
+<!-- Background Video -->
+<div class="background">
+    <video autoplay muted loop playsinline class="background-video">
+        <source src="bg video/Texture_Pattern.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+
+
+<!-- name part -->
+
+<div class="header-content">
+    <!-- Left Side: Branding Text -->
+    <div class="branding-text">
+        <h1>Building brand that connects</h1>
+    </div>
+
+    <!-- Right Side: Name, Designation & Buttons -->
+    <div class="info-container">
+        <!-- Name & Designation -->
+        <div class="text-button-wrapper">
+            <div class="text-container">
+                <h1 class="name-text">Kushal Adhikari</h1>
+                <div class="underline"></div>
+                <p class="designation">Graphic Designer | 3D Artist</p>
+            </div>
+
+            <!-- Buttons -->
+            <div class="button-container">
+                <a href="#portfolio" class="portfolio-button">View Portfolio</a>
+                <a href="#contact" class="cv-button">Hire Me</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+ <!-----------------------------------------------------------------------------------------------------------------------End of 1st viewport -->
+    
+<!--------------------------------------------------------------------------------------------------About me & Experience Section  --->
+
+<!----------------------------------------------------------------------------------- About Me Section -->
+<!-- About Me Section -->
+<section id="about">
+    <div class="about-wrapper">
+        <!-- Left Side: Text Content -->
+        <div class="about-text">
+            <h1>About Me</h1>
+            <p>
+                I am a passionate Graphic Designer and 3D Artist with over 2 years of experience 
+                creating visually stunning designs and models. My goal is to bring creativity 
+                and innovation to every project, helping brands and individuals stand out.
+            </p>
+
+            <!-- Experience, Projects, Clients Section (Now below About Me) -->
+            <div class="experience-section">
+                <div class="stat-box">
+                    <h2>80+</h2>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-box">
+                    <h2>3+</h2>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="stat-box">
+                    <h2>20+</h2>
+                    <p>Satisfied Clients</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Right Side: Placeholder for Future Image -->
+        <div class="about-image">
+            <div class="image-placeholder">
+                <p>Image Placeholder</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+ <!----------------------------------------------------------------------------------------------------------------End of 2nd viewport -->
+
+<!-- What I Do Section -->
+
+<section id="expertise">
+<div class="what-i-do-section">
+    <h1 class="section-title">Area of expertise</h1>
+    <div class="services-container">
+        <!-- Graphic Design -->
+        <div class="service-card">
+            <h3>Graphic Design</h3>
+            <p>Creative and visually appealing graphic designs tailored to your brand identity.</p>
+        </div>
+        
+        <!-- Video Editing -->
+        <div class="service-card">
+            <h3>Video Editing</h3>
+            <p>Professional video editing to make your content engaging and dynamic.</p>
+        </div>
+        
+        <!-- 3D Modelling -->
+        <div class="service-card">
+            <h3>3D Modelling</h3>
+            <p>High-quality 3D models for realistic and innovative visual projects.</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<!----------------------------------------------------------------------------------------------------------------End of 3nd viewport -->
+
+<!----portfolio part-->
+<section id="port">
+<div id="portfolio" class="portfolio-section">
+    <h1 class="portfolio-title">Portfolio</h1>
+</div>
+
+<!-- Portfolio Section -->
+ <!-- Portfolio Filter Buttons -->
+ <div class="portfolio-filter">
+    <button class="filter-btn active" data-category="all">
+        <img src="images/icons/all.svg" alt="All">
+        <span>All</span>
+    </button>
+    <button class="filter-btn" data-category="graphic-design">
+        <img src="images/icons/gd.svg" alt="Graphic Design">
+        <span>Graphic Design</span>
+    </button>
+    <button class="filter-btn" data-category="video-editing">
+        <img src="images/icons/ve.svg" alt="Video Editing">
+        <span>Video Editing</span>
+    </button>
+    <button class="filter-btn" data-category="3d-modeling">
+        <img src="images/icons/3d.svg" alt="3D Modeling">
+        <span>3D Modeling</span>
+    </button>
+</div>
+
+<!-- Portfolio Grid -->
+<div class="portfolio-grid">
+    <!-- Graphic Design (4 shown in "All", more hidden) -->
+    <div class="portfolio-item graphic-design show-in-all">
+        <img src="images/Graphic Designs/1.jpg" alt="Graphic Design 1">
+    </div>
+    <div class="portfolio-item graphic-design show-in-all">
+        <img src="images/Graphic Designs/1.jpg" alt="Graphic Design 2">
+    </div>
+    <div class="portfolio-item graphic-design show-in-all">
+        <img src="images/Graphic Designs/1.jpg" alt="Graphic Design 3">
+    </div>
+    <div class="portfolio-item graphic-design show-in-all">
+        <img src="images/Graphic Designs/1.jpg" alt="Graphic Design 4">
+    </div>
+    <div class="portfolio-item graphic-design hide">
+        <img src="images/Graphic Designs/1.jpg" alt="Graphic Design 5">
+    </div>
+    <div class="portfolio-item graphic-design hide">
+        <img src="images/Graphic Designs/1.jpg" alt="Graphic Design 6">
+    </div>
+
+    <!-- Video Editing (4 shown in "All", more hidden) -->
+    <div class="portfolio-item video-editing show-in-all">
+        <img src="images/Video Editing/1.jpg" alt="Video Editing 1">
+    </div>
+    <div class="portfolio-item video-editing show-in-all">
+        <img src="images/Video Editing/1.jpg" alt="Video Editing 2">
+    </div>
+    <div class="portfolio-item video-editing show-in-all">
+        <img src="images/Video Editing/1.jpg" alt="Video Editing 3">
+    </div>
+    <div class="portfolio-item video-editing show-in-all">
+        <img src="images/Video Editing/1.jpg" alt="Video Editing 4">
+    </div>
+    <div class="portfolio-item video-editing hide">
+        <img src="images/Video Editing/1.jpg" alt="Video Editing 5">
+    </div>
+    <div class="portfolio-item video-editing hide">
+        <img src="images/Video Editing/1.jpg" alt="Video Editing 6">
+    </div>
+
+    <!-- 3D Modeling (4 shown in "All", more hidden) -->
+    <div class="portfolio-item 3d-modeling show-in-all">
+        <img src="images/3D Modelling/1.png" alt="3D Modeling 1">
+    </div>
+    <div class="portfolio-item 3d-modeling show-in-all">
+        <img src="images/3D Modelling/1.png" alt="3D Modeling 2">
+    </div>
+    <div class="portfolio-item 3d-modeling show-in-all">
+        <img src="images/3D Modelling/1.png" alt="3D Modeling 3">
+    </div>
+    <div class="portfolio-item 3d-modeling show-in-all">
+        <img src="images/3D Modelling/1.png" alt="3D Modeling 4">
+    </div>
+    <div class="portfolio-item 3d-modeling hide">
+        <img src="images/3D Modelling/1.png" alt="3D Modeling 5">
+    </div>
+    <div class="portfolio-item 3d-modeling hide">
+        <img src="images/3D Modelling/1.png" alt="3D Modeling 6">
+    </div>
+</div>
+</section>
+
+<!----------------------------------------------------------------------------------------------------------------------------- Contact Section -->
+<section id="contact">
+    <div class="contact-title-wrapper">
+        <h1 class="contact-title">Need a Design?</h1>
+    </div>
+    <p class="contact-subtitle">Leave a Message</p>
+    <div class="contact-wrapper">
+        
+        <!-- Right Side - Form -->
+        <form class="contact-form" id="contactForm">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!----------------------------------------------------------------------------------------------------------------------------- end of Contact Section -->
+
+
+<!-- Social Media Section -->
+<section id="social-media">
+    <p class="social-title">Find Me On</p>
+    <div class="social-wrapper">
+        <a href="https://www.facebook.com/kushal.adh23" target="_blank" class="social-link">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/kushaladh" target="_blank" class="social-link">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://behance.com/kushaladh" target="_blank" class="social-link">
+            <i class="fab fa-behance"></i>
+        </a>
+        <a href="https://www.instagram.com/kushal_adh_23/" target="_blank" class="social-link">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+    <p class="copyright">Copyright © Designed and Developed By Kushal Adhikari</p>
+</section>
+
+        <script src="script.js"></script>
+</body> 
+</html>   
